@@ -1,19 +1,19 @@
-# Welcome to KubeRay Guide
+# KubeRay Guide에 오신 것을 환영합니다 👋
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+이 문서는 Ray와 KubeRay에 대한 실용적인 학습을 위한 가이드입니다. Ray는 분산 컴퓨팅을 손쉽게 구현할 수 있도록 도와주는 프레임워크이며, KubeRay는 Kubernetes 환경에서 Ray 클러스터를 쉽게 관리할 수 있도록 도와주는 오퍼레이터입니다.
 
-## Commands
+초보자도 이해할 수 있도록 쉬운 용어를 사용하고, 실습을 통해 Ray의 개념과 구조, 활용법을 단계별로 배워갈 수 있도록 구성했습니다.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 이 문서에서 다루는 내용
 
-## Project layout
+- **1. 서론**: Ray가 왜 필요한지, 이 문서를 어떻게 활용할 수 있는지를 소개합니다.
+- **2. Ray 기초 다지기**: Ray의 아키텍처, 분산 처리 개념, 핵심 런타임 구성요소를 설명합니다.
+- **3. Ray Service 패밀리 이해**: Ray Cluster, Serve, Job, Workflow/Data에 대해 실전 중심으로 이해합니다.
+- **4. KubeRay로 옮겨오기**: Ray를 Kubernetes 환경에서 운영하기 위한 KubeRay의 구조와 사용법을 다룹니다.
+- **5. Hands-on 실습**: Helm 설치부터 실제 RayService/RayJob 구성까지 따라하며 실습합니다.
+- **6. 운영 & 모니터링**: Ray 대시보드, 모니터링, 장애 대응 등 실무 중심 내용을 다룹니다.
+- **7. 심화 주제**: 멀티테넌시, GPU 워크로드, CI/CD, 소스코드 분석 등 고급 주제를 소개합니다.
+- **8. 결론 및 다음 단계**: 학습 로드맵과 커뮤니티·레퍼런스를 안내합니다.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+이 문서는 Ray를 기반으로 한 분산 환경 구축 및 운영을 배우고 싶은 모든 분들을 위한 안내서입니다.
 
-## Project Structure
