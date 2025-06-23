@@ -41,19 +41,19 @@ nav:
     - 5.3 RayService로 온라인 서빙 전환: hands-on/rayservice.md
     - 5.4 RayJob으로 분산 학습 실행: hands-on/rayjob.md
     - 5.5 Autoscaler/HPA 연동: hands-on/autoscaler-hpa.md
-  - 6. 운영 & 모니터링:
-    - 6.1 Ray Dashboard 사용법: operations/dashboard.md
-    - 6.2 Prometheus + Grafana 지표 수집: operations/metrics.md
-    - 6.3 로그 & Trace 연동: operations/logging-tracing.md
-    - 6.4 장애 시나리오 & 대응 패턴: operations/troubleshooting.md
-  - 7. 심화 주제:
-    - 7.1 멀티테넌시: advanced/multitenancy.md
-    - 7.2 GPU 워크로드 스케줄링: advanced/gpu-scheduling.md
-    - 7.3 Ray Serve CI/CD 파이프라인: advanced/cicd.md
-    - 7.4 KubeRay 소스 분석: advanced/kubray-source.md
-  - 8. 결론 & 다음 단계:
-    - 8.1 학습 로드맵 정리: conclusion/roadmap.md
-    - 8.2 추천 레퍼런스 & 커뮤니티: conclusion/references.md
+  # - 6. 운영 & 모니터링:
+  #   - 6.1 Ray Dashboard 사용법: operations/dashboard.md
+  #   - 6.2 Prometheus + Grafana 지표 수집: operations/metrics.md
+  #   - 6.3 로그 & Trace 연동: operations/logging-tracing.md
+  #   - 6.4 장애 시나리오 & 대응 패턴: operations/troubleshooting.md
+  # - 7. 심화 주제:
+  #   - 7.1 멀티테넌시: advanced/multitenancy.md
+  #   - 7.2 GPU 워크로드 스케줄링: advanced/gpu-scheduling.md
+  #   - 7.3 Ray Serve CI/CD 파이프라인: advanced/cicd.md
+  #   - 7.4 KubeRay 소스 분석: advanced/kubray-source.md
+  # - 8. 결론 & 다음 단계:
+  #   - 8.1 학습 로드맵 정리: conclusion/roadmap.md
+  #   - 8.2 추천 레퍼런스 & 커뮤니티: conclusion/references.md
 
 extra_javascript:
   - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
