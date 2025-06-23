@@ -3,9 +3,17 @@ site_url: https://mydomain.org/mysite
 theme:
   name: material
   language: en
+  features:
+    - toggle
   palette:
-    primary: blue
-    accent: indigo
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
   - Home: index.md
@@ -14,7 +22,7 @@ nav:
     - 1.2 Ray Cluster 학습 목표와 문서 활용 방법: intro/learning-objectives.md
   - 2. Ray 기초 다지기 (Fundamentals):
     - 2.1 Ray 아키텍처 한눈에 보기: fundamentals/architecture-overview.md
-    - 2.2 분산 개념: Task vs Actor vs Placement Group > fundamentals/concepts.md
+    - 2.2 분산 개념: fundamentals/concepts.md
     - 2.3 Ray Runtime 핵심 서비스: fundamentals/runtime-services.md
   - 3. Ray Service 패밀리 이해:
     - 3.1 Ray Cluster ― 헤드 노드·워커 노드 구조: services/cluster.md
@@ -25,7 +33,7 @@ nav:
     - 4.1 KubeRay 개요와 장점: kuberay/overview.md
     - 4.2 KubeRay 아키텍처: kuberay/architecture.md
     - 4.3 RayCluster CRD 세부 필드: kuberay/raycluster-crd.md
-    - 4.4 RayService CRD: kuberays/rayservice-crd.md
+    - 4.4 RayService CRD: kuberay/rayservice-crd.md
     - 4.5 RayJob CRD: kuberay/rayjob-crd.md
   - 5. Hands-on KubeRay 실습:
     - 5.1 Helm으로 KubeRay 설치: hands-on/install-helm.md
@@ -47,8 +55,18 @@ nav:
     - 8.1 학습 로드맵 정리: conclusion/roadmap.md
     - 8.2 추천 레퍼런스 & 커뮤니티: conclusion/references.md
 
+extra_javascript:
+  - https://unpkg.com/mermaid@10.9.1/dist/mermaid.min.js
+  - js/mermaid-init.js
+
 markdown_extensions:
   - admonition
   - codehilite
+  - pymdownx.details
   - toc:
       permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
