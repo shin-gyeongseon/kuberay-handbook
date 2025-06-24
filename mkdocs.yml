@@ -1,5 +1,5 @@
-site_name: KubeRay Guide
-site_url: https://mydomain.org/mysite
+site_name: kuberay-handbook
+site_url: https://shin-gyeongseon.github.io/kuberay-handbook
 theme:
   name: material
   language: en
