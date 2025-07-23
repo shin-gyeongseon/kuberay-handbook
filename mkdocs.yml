@@ -42,6 +42,10 @@ nav:
     - 5.3 RayService로 온라인 서빙 전환: hands-on/rayservice.md
     - 5.4 RayJob으로 분산 학습 실행: hands-on/rayjob.md
     - 5.5 Autoscaler/HPA 연동: hands-on/autoscaler-hpa.md
+  - 6. KubeRay GCS 및 클러스터 관리:
+      - 6.1 GCS Fault Tolerance Configurations 요약: gcs/gcs-fault-tolerance-summary.md
+      - 6.2 Ray 서비스 종료 시 Redis GCS 사용 경우 Finalizer에 의한 종료 과정 메카니즘: gcs/gcs-finalizer-mechanism.md
+      - 6.3 Ray Cluster를 온전히 삭제하기 위한 방법: gcs/cluster-deletion.md
   # - 6. 운영 & 모니터링:
   #   - 6.1 Ray Dashboard 사용법: operations/dashboard.md
   #   - 6.2 Prometheus + Grafana 지표 수집: operations/metrics.md
