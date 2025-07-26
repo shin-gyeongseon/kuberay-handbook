@@ -3,6 +3,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 한국어로 작성된 Ray와 KubeRay에 대한 종합 가이드 및 실습 문서입니다. 이 저장소는 Ray의 핵심 개념부터 KubeRay를 활용한 실전 배포까지 체계적으로 학습할 수 있도록 구성되었습니다.
+🌏 [WEB으로 보기](https://shin-gyeongseon.github.io/kuberay-handbook/)
 
 ## 📚 문서 구성
 
@@ -33,7 +34,7 @@
    - RayJob으로 분산 학습
    - Autoscaler/HPA 연동
 
-6. **운영 & 모니터링**
+6. **운영 & 모니터링** (작업 예정)
    - Ray Dashboard 사용법
 
 ## 🚀 시작하기
